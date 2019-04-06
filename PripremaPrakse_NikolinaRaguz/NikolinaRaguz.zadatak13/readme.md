@@ -1,0 +1,1 @@
+13)	Povezati AngularJS s HTML datotekom koristeći vanjski izvor (CDN) ili lokalno  preuzete skripte. Kreirati AngularJS aplikaciju koja sadrži dvije varijable. Sadržaj prve varijable je vaše ime i prezime a sadržaj druge su vaše godine. U HTML datoteci pomoću interpolacije ispisati sadržaj varijabli u obliku '<Ime Prezime> ima <godine> godina.' unutar <h1> elementa. 
