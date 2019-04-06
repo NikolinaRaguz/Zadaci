@@ -1,0 +1,1 @@
+04)	U HTML-u kreirati 6 clanaka s naslovima i tekstom, te vanjskim poveznicama. Svaki clanak ima razlicitu pozadinsku boju. Do 400px širine prozora, u jednom redu se nalazi po 1 clanak. Iznad 400px i do 800px se u jednom redu nalaze po 2 clanka. Iznad 800px se u jednom redu nalaze po 3 clanka. Napisati potreban CSS i media query-e. Sadržaj clanaka je proizvoljan. 
