@@ -1,0 +1,35 @@
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-center > div {
+  flex: 0.5 0.5 0;
+}
+
+.boja {
+    color: red;
+    border: 1px solid black; 
+    background-color: gray;
+}
+.centar{
+    text-align: center;
+    background-color: blue;
+}
+
+.slika {
+    background-image: url("food.jpg");
+}
+
+#jedan {
+    font-size: 22px;
+}
+
+#dva{
+    color: brown;
+}
+
+#tri a:hover{
+        font-size: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+  <script src="AJS14.js"></script>
+</head>
+<body>
+    <div ng-app="app" ng-controller="myCtrl">
+      <table>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">Surname</th>
+          <th rowspan="2">Year of birth</th>
+          <th rowspan="2">Phone number</th>
+          <th rowspan="2">E-mail</th>
+          <th colspan="2">Company</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+        <tr ng-repeat="person in people" ng-show="person.yearOfBirth<1994 && person.company.city=='Osijek'">
+          <td>{{person.name | uppercase}}</td>
+          <td>{{person.surname | uppercase}}</td>
+          <td>{{person.yearOfBirth}}</td>
+          <td>{{person.phoneNumber}}</td>
+          <td>{{person.email}}</td>
+          <td>{{person.company.name}}</td>
+          <td>{{person.company.city}}</td>
+        </tr>    
+      </table>
+    </div>
+</body>
+</html>

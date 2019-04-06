@@ -1,0 +1,31 @@
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+  }
+
+/* On screens that are 400px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .column {
+      width: 50%;
+    }
+  }  
+
+  @media screen and (min-width: 800px) {
+    .column {
+      width: 30%;
+    }
+  }
+
+#clanak1 {background-color: lightblue;}
+#clanak2 {background-color: peachpuff;}
+#clanak3 {background-color: cornflowerblue;}
+#clanak4 {background-color: lightcoral;}
+#clanak5 {background-color: goldenrod;}
+#clanak6 {background-color: teal;}
