@@ -1,0 +1,1 @@
+05)	Povezati lokalni 'test.js' file s 'index.html' datotekom. Napraviti Javascript aplikaciju koja prilikom pokretanja izvršava funkciju koja u konzoli preglednika ispisuje sadržaj 'Hello world!'.
